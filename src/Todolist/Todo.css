@@ -1,0 +1,184 @@
+.title {
+  font-size: 2rem;
+  text-align: center;
+  font-family: cursive;
+  letter-spacing: 0.3rem;
+
+  
+}
+.input {
+  
+  margin-left: 5rem;
+}
+
+.inputs {
+  border-radius: 20px;
+  height: 2em;
+  padding: 0 2rem;
+  font-size: 10px;
+  margin-top: 1rem;
+  font-family: cursive;
+  padding: 0em 1em .5em 2rem;
+
+  width: 1rem;
+}
+.btn {
+  height: 2em;
+  border-radius: 1rem;
+  padding: 0 1rem;
+  cursor: pointer;
+
+}
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 50px;
+  }
+  
+  .btn {
+    margin-left: 10rem;
+    height: 4rem;
+    width: 10rem;
+    font-size: 50px;
+    margin-top: 2rem;
+    font-family: cursive;
+    padding: 0em 1em 1.5em 2rem;
+     
+  }
+  .input {
+    margin-left: 1.5em;
+  }
+
+  .inputs {
+    font-size: 30px;
+    margin-top: 1rem;
+    font-family: cursive;
+    padding: 0em 1em .5em 2rem;
+
+    width: 25rem;
+  }
+  .btnn {
+    padding: 0.1em 1em 0.1em 1em;
+    border-radius: 5px;
+    margin-top: 1rem; 
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+    .btnn:hover {
+      background-color: red;
+    }
+    .tex {
+      font-size:  25px;
+      
+      font-family: cursive;
+      letter-spacing: 0.1em;
+    }
+}
+@media only screen and (min-width: 600px) {
+  .title {
+    font-size: 50px;
+  }
+  
+  .btn {
+    margin-left: 10rem;
+    height: 4rem;
+    width: 10rem;
+    font-size: 50px;
+    margin-top: 2rem;
+    font-family: cursive;
+    padding: 0em 1em 1.5em 2rem;
+     
+  }
+  .input {
+    margin-left: 1.5em;
+  }
+
+  .inputs {
+    font-size: 30px;
+    margin-top: 1rem;
+    font-family: cursive;
+    padding: 0em 1em .5em 2rem;
+
+    width: 25rem;
+  }
+  .btnn {
+    padding: 0.1em 1em 0.1em 1em;
+    border-radius: 5px;
+    margin-top: 1rem; 
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+    .btnn:hover {
+      background-color: red;
+    }
+    .tex {
+      font-size:  25px;
+      
+      font-family: cursive;
+      letter-spacing: 0.1em;
+    }
+}
+@media only screen and (min-width: 768px) {
+  .input {
+    margin-left: 8rem;
+  }
+  .inputs {
+    width: 30rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .title {
+    font-size: 2rem;
+    text-align: center;
+    font-family: cursive;
+    letter-spacing: 0.3rem;
+  
+    
+  }
+  .input {
+    
+    margin-left: 3rem;
+  }
+  
+  .inputs {
+    border-radius: 20px;
+    height: 2em;
+    padding: 0 2rem;
+    font-size: 15px;
+  
+    font-family: cursive;
+    padding: 0em 1em .5em 2rem;
+  
+    width: 25rem;
+  }
+  .btn {
+    height: 2em;
+    border-radius: 1rem;
+    padding: 0 1rem;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 8rem;
+   
+  }
+  .btn:hover {
+    background-color: seagreen;
+    color: seashell;
+  }
+.btnn {
+  padding: 0.1em 1em 0.1em 1em;
+  border-radius: 5px;
+  margin-top: 1rem; 
+  margin-right: 1rem;
+  cursor: pointer;
+}
+  .btnn:hover {
+    background-color: red;
+    color: seashell;
+  }
+  .tex {
+    font-size:  25px;
+    
+    font-family: cursive;
+    letter-spacing: 0.1em;
+  }
+}
